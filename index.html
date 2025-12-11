@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <section class="sing" id="sing-in">
+      <h2>Conact Us</h2>
+      <form>
+        <section class="username">
+
+        <label for="firstname">First Name <span>*</span></label>
+
+        <label for="lastname" class="lastname">Last Name  <span>*</span></label>
+
+        <br >
+
+        <input type="text" name="lastname" id="lastname"/>
+        
+        <input type="text" name="firstname" id="firstname"/>
+
+        <br >
+
+        <p id="message1"></p><p id="messageName"></p>
+    
+        </section>
+
+        <br>
+
+        <section class="Email">
+
+        <label for="email">Email Address  <span>*</span></label>
+        <br>
+        <input type="text" name="email" id="email"/> <br >
+
+        <p id="message2"></p>
+
+        </section>
+
+        <br>
+
+        <section>
+          <label>Query Type   <span>*</span></label>
+
+          <br>
+
+          <div class="Query">
+
+          <div class="Enquiry">
+            
+          <input type="radio" name="Query" id="General" value="General">
+          <span>General Enquiry</span>
+
+          </div>
+          <div class="Request">
+
+          <input type="radio" name="Query" id="Support" value="Support">
+          <span>Support Request</span> <br >
+          
+          </div>
+
+        </div>
+
+        <p id="message3"></p>
+
+        </section>
+
+        <section>
+
+          <div class="message">
+
+          <label for="message">Message  <span>*</span></label>
+
+          <br>
+
+          <input type="text" name="message" id="message"> <br >
+
+          <p id="message4"></p>
+
+          </div>
+
+        </section>
+
+        <br>
+
+      <section>
+
+        <div class="contact">
+
+        <input type="checkbox" name="contact" id="contact">
+        <label for="contact">I consent to being contacted by the team  <span>*</span></label><br >
+        
+        </div>
+
+        <p id="message5"></p>
+
+      </section>
+
+      <section>
+
+      <div class="submit">
+
+      <input type="submit" value="Submit" id="submit">
+      
+      </div>
+
+      </section>
+
+      </form>
+    </section>
+  </body>
+</html>
