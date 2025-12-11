@@ -1,0 +1,236 @@
+body{
+  display: flex;
+  background-color: hsl(120, 50%, 90%);
+  padding: 0;
+  margin: 0;
+}
+
+.sing{
+  border: 1px solid #fff;
+  background-color: #fff;
+  border-radius: 18px;
+  font-family: 'Arial', sans-serif;
+  margin: 150px auto;
+  padding-top: 10px;
+  padding-left: 50px;
+  width: 700px;
+  height: 1000px;
+}
+
+.username {
+  padding-top: 15px;
+}
+
+.lastname {
+  padding-left: 250px;
+}
+
+#firstname {
+  cursor: url("https://img.icons8.com/puffy/32/nui2.png"), pointer;
+  height: 50px;
+  width: 330px;
+}
+
+#lastname {
+  cursor: url("https://img.icons8.com/puffy/32/nui2.png"), pointer;
+  height: 50px;
+  width: 330px;
+}
+
+#message1 {
+  cursor: url("https://img.icons8.com/puffy/32/nui2.png"), pointer;
+  margin-top: 35px;
+}
+
+#messageName {
+  margin-top: -35px;
+  margin-left: 340px;
+}
+
+.Email  {
+  padding-top: 5px;
+}
+
+#email {
+  cursor: url("https://img.icons8.com/puffy/32/nui2.png"), pointer;
+  height: 50px;
+  width: 670px;
+}
+
+
+label {
+  font-family: 'Arial', sans-serif;
+  color: hsl(0, 0%, 30%);
+}
+
+input {
+  border: 1px solid rgb(92, 92, 92);
+  border-radius: 8px;
+  margin-top: 15px;
+  width: 210px;
+  height: 33px;
+}
+
+input:focus {
+    border-color: #1e9d73;
+    outline: none;
+    background: #f8fffc;
+}
+
+.Query {
+  display: flex;
+  gap: 10px;
+}
+
+.Enquiry,
+.Request {
+  border: 1px solid rgb(92, 92, 92);
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 18px;
+  width: 310px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Enquiry:hover,
+.Request:hover {
+  border: 1px solid #008000;
+  background-color: hsl(120, 50%, 90%);
+}
+
+.message {
+  margin-top: 20px;
+}
+
+#message {
+  cursor: url("https://img.icons8.com/puffy/32/nui2.png"), pointer;
+  margin-top: 15px;
+  width: 665px;
+  height: 130px;
+}
+
+span {
+  color: #008000;
+}
+
+.Query span {
+  color: rgb(92, 92, 92);
+}
+
+.contact input {
+  width: 20px;
+  height: 20px;
+}
+
+
+
+.submit input {
+  cursor: url("https://img.icons8.com/puffy/32/nui2.png"), pointer;
+  color: #fff;
+  background-color: #008000;
+  margin-top: 3em;
+  width: 670px;
+  height: 50px;
+}
+
+
+.submit input:hover {
+  color: #fff;
+  background-color: hsl(120, 100%, 14%);
+  margin-top: 3em;
+  width: 670px;
+  height: 50px;
+}
+
+@media screen and (min-width: 450px) and (max-width: 770px) {
+  body {
+    background-color: hsl(120, 50%, 90%);;
+    padding: 0;
+    margin: 0;
+    justify-content: center; 
+  }
+
+  .sing{
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 18px;
+    font-family: 'Arial', sans-serif;
+    margin: 250px auto;
+    padding-top: 10px;
+    padding-left: 50px;
+    width: 320px;
+    height: 190vw;
+  }
+
+  #messageName {
+    margin-top: -33px;
+    margin-left: 170px;
+  }
+
+  .username {
+    padding-top: 15px;
+  }
+  
+  .lastname {
+    padding-left: 50px;
+  }
+  
+  #firstname {
+    height: 50px;
+    width: 130px;
+  }
+  
+  #lastname {
+    height: 50px;
+    width: 130px;
+  }
+
+  .Email  {
+    padding-top: none;
+  }
+
+  #email {
+    height: 50px;
+    width: 270px;
+  }
+
+  .Enquiry {
+    margin-left: -30px;
+    width: 300px;
+  }
+
+  .Request {
+    margin-top: 90px;
+    margin-left: -332px;
+    width: 300px;
+  }
+
+  #message {
+    margin-top: 15px;
+    padding-left: 5px;
+    width: 280px;
+    height: 130px;
+  }
+
+  .submit input {
+    color: #fff;
+    background-color: #008000;
+    margin-top: 3em;
+    width: 290px;
+    height: 50px;
+  }
+  
+  
+  .submit input:hover {
+    color: #fff;
+    background-color: hsl(120, 100%, 14%);
+    margin-top: 3em;
+    width: 290px;
+    height: 50px;
+  }
+  
+  
+}
